@@ -12,7 +12,10 @@ Vous devrez nommer votre modèle en premier lieu dans le champ "Name" sans quoi 
 
 Ensuite viens le champ "Envelope Sender". Dans ce champ vous pouvez mettre un email qui sera affiché dans la plupart des clients web. Vous pouvez le laisser vide pour que l'affichage par défaut qui est l'Email d'envoie que vous avez configuré dans la partie SMTP.
 
+### La création du modèle
+
 Pour créer un modèle de mail, vous aurez deux moyen. Le premier est de créer le mail en texte brut ou en HTMl, ou alors de l'importer grâce au bouton "Import Mail".
+
 
 <tabs>
 <tab title="Import Mail">
@@ -57,5 +60,15 @@ Dans le champ "URL" nous allons indiquer la variable {{.URL}} qui est la variabl
 </tab>
 <tab title="Text/HTML">
 
+Pour cette deuxième méthode, vous devrez gérer la mise en forme par vous-même ainsi que le contenu.
+
+***Parler du bouton "source" dans l'éditeur html et du texte brut ainsi que des variables/url***
+
 </tab>
 </tabs>
+
+***Peut-être des notes d'information ?***
+
+#### Les variables {collapsible="true"}
+
+***Montrer toutes les variables et leurs correspondances***
