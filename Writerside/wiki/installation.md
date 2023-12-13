@@ -1,4 +1,4 @@
-# Installation
+# Installation de GoPhish
 
 Pour débuter l’installation du script, voici les instructions à suivre :
 

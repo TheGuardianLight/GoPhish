@@ -4,9 +4,11 @@
 
 <instance-profile id="gophish"
                  name="gophish"
-                 start-page="installation.md">
+                 start-page="Introduction.md">
 
-    <toc-element topic="installation.md"/>
+    <toc-element topic="Introduction.md"/>
+    <toc-element topic="installation.md">
+    </toc-element>
     <toc-element topic="Création-d-une-campagne-GoPhish.md">
         <toc-element topic="Création-d-une-campagne-Sending-Profile.md">
         </toc-element>
