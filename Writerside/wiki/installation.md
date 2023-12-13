@@ -13,7 +13,7 @@ Pour débuter l’installation du script, voici les instructions à suivre :
     ```
 Vous pouvez le faire dans n’importe quel répertoire de travail (par exemple, le répertoire root).
 
-2. Après avoir cloné le dépôt, naviguez jusqu’au dossier du dépôt avec la commande : 
+2. Après avoir cloné le dépôt, naviguez jusqu’au dossier du dépôt avec la commande :
     ```Bash
     cd GoPhish
     ```
@@ -24,7 +24,7 @@ Vous pouvez le faire dans n’importe quel répertoire de travail (par exemple, 
 4. Suivez les directives fournies par le script et répondez aux questions qui vous seront posées.
 
 > **Pour information :**
-> 
+>
 > Lorsque le script aura achevé l’installation et démarré le logiciel, il affichera dans le terminal l’**identifiant administrateur** par défaut ainsi que **son mot de passe temporaire**. Vous serez invité à modifier ce mot de passe lors de votre première connexion.
 {style="note"}
 
