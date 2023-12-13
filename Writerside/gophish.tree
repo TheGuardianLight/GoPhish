@@ -7,6 +7,10 @@
                  start-page="installation.md">
 
     <toc-element topic="installation.md"/>
-    <toc-element topic="Création-d-une-campagne-Sending-Profile.md"/>
-    <toc-element topic="Création-d-une-campagne-Les-groupes-d-utilisateurs.md"/>
+    <toc-element topic="Création-d-une-campagne-GoPhish.md">
+        <toc-element topic="Création-d-une-campagne-Sending-Profile.md">
+        </toc-element>
+        <toc-element topic="Création-d-une-campagne-Les-groupes-d-utilisateurs.md"/>
+        <toc-element topic="Création-d-une-campagne-Les-modèles-d-Email.md"/>
+    </toc-element>
 </instance-profile>

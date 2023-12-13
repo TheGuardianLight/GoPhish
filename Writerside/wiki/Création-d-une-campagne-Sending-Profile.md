@@ -1,4 +1,4 @@
-# Création d&apos;une campagne : Sending Profile
+# Sending Profile
 
 La première étape de la création d'une campagne de phishing avec GoPhish, est la création d'un profil d'envoi (="Sending Profile").
 
@@ -26,11 +26,9 @@ A l'aide du menu de gauche, naviguez sur "Sending Profile" puis cliquez sur le b
 
 > **Attention**
 > 
-> Si vous cocher "Ignore Certificate Errors", cela pourrait vous exposer à des problèmes de sécurité tels que les attaques de type 
+> Si vous cocher "Ignore Certificate Errors", cela pourrait vous exposer à des problèmes de sécurité tels que les attaques de type MiTm (="*Man in The Middle*") ou plus courament appelé : attaque de l'homme au milieu.
 > 
 > 
 {style="warning"}
 
-Une fois que les paramètres ont été renseigné, vous pouvez effectuer un test d'envoie avec le bouton "Send Test Email" qui enverra un email de test à une adresse Email que vous fournirrez.
-
-Lorsque les paramètres SMTP ont été validé, vous pourrez sauvegarder le profil.
+Une fois que les paramètres ont été renseigné, vous pouvez effectuer un test d'envoie avec le bouton "Send Test Email" qui enverra un email de test à une adresse Email que vous fournirre

@@ -1,4 +1,4 @@
-# Création d&apos;une campagne : Les groupes d&apos;utilisateurs
+# Les groupes d&apos;utilisateurs
 
 Maintenant que le profil d'envoie de mail as été correctement configuré, il va falloir créer des listes d'utilisateurs vers qui envoyer les mails de phishing.
 
