@@ -25,7 +25,12 @@ Vous pouvez le faire dans n’importe quel répertoire de travail (par exemple, 
 
 > **Pour information :**
 >
-> Lorsque le script aura achevé l’installation et démarré le logiciel, il affichera dans le terminal l’**identifiant administrateur** par défaut ainsi que **son mot de passe temporaire**. Vous serez invité à modifier ce mot de passe lors de votre première connexion.
+> Lorsque le script aura achevé l’installation et démarré le logiciel, il affichera dans le terminal l’**identifiant administrateur** par défaut ainsi que **son mot de passe temporaire**.
+> 
+> <img src="capture_gophish_mdp.png" alt="Capture d'écran mot de passe par défaut GoPhish"/>
+> 
+> Vous serez invité à modifier ce mot de passe lors de votre première connexion.
+
 {style="note"}
 
 5. Une fois le mot de passe administrateur modifié, utilisez `ctrl + c` pour fermer GoPhish dans le terminal. Cela permettra au script de finaliser l’installation.
@@ -35,7 +40,7 @@ Vous pouvez le faire dans n’importe quel répertoire de travail (par exemple, 
     ```
 
 <seealso>
-    <category ref="wrs">
+    <category ref="doc_go">
         <a href="https://getgophish.com/documentation/">Documentation de GoPhish</a>
     </category>
 </seealso>

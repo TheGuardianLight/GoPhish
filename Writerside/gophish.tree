@@ -7,4 +7,5 @@
                  start-page="installation.md">
 
     <toc-element topic="installation.md"/>
+    <toc-element topic="Création-d-une-campagne-Sending-Profile.md"/>
 </instance-profile>
