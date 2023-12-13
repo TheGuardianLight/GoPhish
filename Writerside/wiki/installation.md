@@ -38,6 +38,8 @@ Vous pouvez le faire dans n’importe quel répertoire de travail (par exemple, 
     ```Bash
     systemctl start gophish
     ```
+Une fois que votre serveur GoPhish est lancé, vous pourrez vous connecter au panel d'administration en renseignant dans votre navigateur internet préféré, l'ip de votre serveur suivi du port 3333.
+Par exemple : `192.168.1.30:3333`
 
 <seealso>
     <category ref="doc_go">
