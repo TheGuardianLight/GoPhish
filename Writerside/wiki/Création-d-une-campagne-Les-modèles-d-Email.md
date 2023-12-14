@@ -32,7 +32,7 @@ Une fois le code source indiqué, il sera automatiquement affiché avec le bon f
 
 > **Information :**
 > 
-> Le mail, provenant d'un mail de récupération d'un de mes compte personnel, le code ainsi que les indices sur mon adresse mail personnel ont été caché et remplacé par des "x".
+> Le mail, provenant d'un mail de récupération d'un de mes comptes personnel, le code ainsi que les indices sur mon adresse mail personnel ont été caché et remplacé par des "x".
 > 
 {style="note"}
 
@@ -91,4 +91,16 @@ Une fois que tout a été paramétré, vous pouvez cliquer sur "Save Template" p
 
 #### Les variables {collapsible="true"}
 
-***Montrer toutes les variables et leurs correspondances***
+Pour plus d'information, voici la liste des variables de GoPhish :
+
+| Variable           | Description                |
+|--------------------|----------------------------|
+| `{{.RId}}`         | ID unique de l'utilisateur |
+| `{{.FirstName}}`   |                            |
+| `{{.LastName}}`    |                            |
+| `{{.Position}}`    |                            |
+| `{{.Email}}`       |                            |
+| `{{.TrackingURL}}` |                            |
+| `{{.Tracker}}`     |                            |
+| `{{.URL}}`         |                            |
+| `{{.BaseURL}`}     |                            |
