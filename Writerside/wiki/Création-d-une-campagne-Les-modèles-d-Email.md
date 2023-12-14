@@ -103,4 +103,4 @@ Pour plus d'information, voici la liste des variables de GoPhish :
 | `{{.TrackingURL}}` |                            |
 | `{{.Tracker}}`     |                            |
 | `{{.URL}}`         |                            |
-| `{{.BaseURL}`}     |                            |
+| `{{.BaseURL}}`     |                            |
