@@ -62,12 +62,32 @@ Dans le champ "URL" nous allons indiquer la variable {{.URL}} qui est la variabl
 
 Pour cette deuxième méthode, vous devrez gérer la mise en forme par vous-même ainsi que le contenu.
 
-***Parler du bouton "source" dans l'éditeur html et du texte brut ainsi que des variables/url***
+Pour cela, deux solutions s'offrent à vous : Soit écrire le mail en langage HTML, soit utiliser les options de mise en forme fournie par l'éditeur.
+
+Pour la première solution, il vous suffit de cliquer sur le bouton 
+<img src="source_button.PNG" alt="Bouton source"/> puis d'écrire votre code HTML.
+
+> **Information :**
+> 
+> Par défaut, lorsque vous créez un nouveau modèle de mail, quand vous changez l'éditeur pour passer en éditeur HTML, le mode source est activé par défaut.
+> 
+{style="note"}
+
+Quant à la deuxième solution, c'est tout aussi simple que de créer un document Word.
 
 </tab>
 </tabs>
 
-***Peut-être des notes d'information ?***
+En plus du contenu du mail en lui-même, il est tout à fait possible de joindre des fichiers dans le mail.
+
+<img src="attached_file_mail.PNG" alt="Capture d'écran fichier joints"/>
+
+Il reste encore une option assez importante, c'est le checkbox "Add Tracking Image" qui permettra le tracking du mail et donc d'avoir par la suite des retours sur le panneau principal.
+Pour cette option, il est alors important de la cocher.
+
+<img src="tracking_mail.PNG" alt="Checkbox Tracking mail"/>
+
+Une fois que tout a été paramétré, vous pouvez cliquer sur "Save Template" pour enregistrer la configuration et pouvoir l'utiliser pour la campagne.
 
 #### Les variables {collapsible="true"}
 
