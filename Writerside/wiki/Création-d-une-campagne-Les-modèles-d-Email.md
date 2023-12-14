@@ -1,8 +1,8 @@
-# Les modèles d&apos;Email
+# Les modèles d'Email
 
 La prochaine étape est de créer un modèle d'Email qui sera envoyé aux cibles de la campagne de Phishing.
 
-Ces modèles vont être ce qui va permettre aux attaquant de tromper les utilisateurs et donc de pouvoir comettre leurs attaques.
+Ces modèles vont être ce qui va permettre aux attaquants de tromper les utilisateurs et donc de pouvoir comettre leurs attaques.
 
 Pour en créer une avec GoPhish, naviguez vers "Email Templates" puis "New Template".
 
@@ -10,11 +10,11 @@ Pour en créer une avec GoPhish, naviguez vers "Email Templates" puis "New Templ
 
 Vous devrez nommer votre modèle en premier lieu dans le champ "Name" sans quoi vous risquez de ne pas retrouver votre template parmis d'autres.
 
-Ensuite viens le champ "Envelope Sender". Dans ce champ vous pouvez mettre un email qui sera affiché dans la plupart des clients web. Vous pouvez le laisser vide pour que l'affichage par défaut qui est l'Email d'envoie que vous avez configuré dans la partie SMTP.
+Ensuite vient le champ "Envelope Sender". Dans ce champ, vous pouvez mettre un email qui sera affiché dans la plupart des clients web. Vous pouvez le laisser vide pour que l'affichage par défaut qui est l'Email d'envoi que vous avez configuré dans la partie SMTP.
 
 ### La création du modèle
 
-Pour créer un modèle de mail, vous aurez deux moyen. Le premier est de créer le mail en texte brut ou en HTMl, ou alors de l'importer grâce au bouton "Import Mail".
+Pour créer un modèle de mail, vous aurez deux moyens. Le premier est de créer le mail en texte brut ou en HTMl, ou alors de l'importer grâce au bouton "Import Mail".
 
 
 <tabs>
@@ -36,11 +36,11 @@ Une fois le code source indiqué, il sera automatiquement affiché avec le bon f
 > 
 {style="note"}
 
-Maintenant qu'on as importé un mail, nous pouvons par la suite le modifier pour le rendre utilisable avec GoPhish.
+Maintenant qu'on a importé un mail, nous pouvons par la suite le modifier pour le rendre utilisable avec GoPhish.
 
 Nous pouvons par exemple remplacer lal igne "Voici votre code" par "Réinitialisez votre mot de passe" puis en remplacant "Utilisez ce code" par "ce lien".
 
-Nous pouvons également remplacer l'adresse mail mentionné par celle qui sera indiqué dans les listes d'envoie sur GoPhish. Pour cela, on peut utiliser la variable `{{.Email}}`.
+Nous pouvons également remplacer l'adresse mail mentionné par celle qui sera indiqué dans les listes d'envoi sur GoPhish. Pour cela, on peut utiliser la variable `{{.Email}}`.
 
 Avec cela, notre modèle d'Email ressemblera à ceci :
 
@@ -91,16 +91,16 @@ Une fois que tout a été paramétré, vous pouvez cliquer sur "Save Template" p
 
 #### Les variables {collapsible="true"}
 
-Pour plus d'information, voici la liste des variables de GoPhish :
+Pour plus d'information, voici la liste des variables de GoPhish ainsi que sa description :
 
-| Variable           | Description                |
-|--------------------|----------------------------|
-| `{{.RId}}`         | ID unique de l'utilisateur |
-| `{{.FirstName}}`   |                            |
-| `{{.LastName}}`    |                            |
-| `{{.Position}}`    |                            |
-| `{{.Email}}`       |                            |
-| `{{.TrackingURL}}` |                            |
-| `{{.Tracker}}`     |                            |
-| `{{.URL}}`         |                            |
-| `{{.BaseURL}}`     |                            |
+| Variable           | Description                                                                                                                            |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `{{.RId}}`         | ID unique de la cible                                                                                                                  |
+| `{{.FirstName}}`   | Prénom de la cible                                                                                                                     |
+| `{{.LastName}}`    | Nom de famille de la cible                                                                                                             |
+| `{{.Position}}`    | Position hiérarchique de la cible                                                                                                      |
+| `{{.Email}}`       | Email de la cible                                                                                                                      |
+| `{{.TrackingURL}}` | URL permettant de traquer l'ouverture d'un Email                                                                                       |
+| `{{.Tracker}}`     | Même chose que `{{.TrackingURL}}` mais en invisible                                                                                    |
+| `{{.URL}}`         | URL vers la fausse page web                                                                                                            |
+| `{{.BaseURL}}`     | URL vers la fausse page web sans l'ID de la cible ni le chemin de la page. (Idéal pour des liens statique vers des images par exemple) |
